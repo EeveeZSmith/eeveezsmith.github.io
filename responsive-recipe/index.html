@@ -20,9 +20,12 @@
       line-height: 1.5;
     }
 		img {
-      width: 100%;
-      max-width: 150px;
-      height: auto;
+  width: 500px;
+  height: auto; /* Height will adjust proportionally */
+}
+		img {
+  max-width: 100%;
+  height: auto;
 }
 .flex-container {
   display: flex;
@@ -30,7 +33,7 @@
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
   }
@@ -102,6 +105,7 @@
 
 </body>
 </html>
+
 
 
 
