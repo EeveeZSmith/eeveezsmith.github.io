@@ -24,19 +24,22 @@
       max-width: 150px;
       height: auto;
 }
-	.container {
+.flex-container {
   display: flex;
+  flex-direction: row;
 }
 
-.container div {
-  margin: 10px;
-  padding: 20px;
-}
-	@media (max-width: 800px) {
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
   }
 }
+.container div {
+  margin: 10px;
+  padding: 20px;
+}
+
 		 @media only screen and (max-width: 480px) {
       h1,
       h2 {
@@ -99,6 +102,7 @@
 
 </body>
 </html>
+
 
 
 
