@@ -23,15 +23,15 @@
   width: auto;
   height: 250px;
 }
-.flex-container {
+main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (min-width: 600px) {
-  .flex-container {
-    flex-direction: column;
+  main {
+    flex-direction: row;
   }
 }
 .container div {
@@ -62,14 +62,14 @@
   <h1>Pineapple Upside Down Cake</h1>
   
 </header>
-	<div class="container">
-		<div>
 	<main>
+		<div>
+	
 		<img src="PUCSmall.jpg" alt="Pineapple upside down cake">
 	<p>Delicious and easy to make, even for inexperienced bakers, the pineapple upside down cake requires only a handful of ingredients and minimal preparation. It also happens to be my mom's favorite!</p>
-		<section>
+		
 		</div>
-			<div>
+			<section>
 			<h2>Ingredients</h2>
 			<ul>
 				<li>1/4 cup butter</li>
@@ -80,8 +80,7 @@
 				<li>Vegetable oil and eggs (refer to cake mix instructions)</li>
 			</ul>
 		</section>
-		</div>
-		<div>
+		
 		<section>
 			<h2>Directions</h2>
 			<ol>
@@ -90,8 +89,7 @@
 				<li>Bake 42 to 48 minutes (44 to 53 minutes for dark or nonstick pan) or until toothpick inserted in center comes out clean. Immediately run knife around side of pan to loosen cake. Place heatproof serving plate upside down onto pan; turn plate and pan over. Leave pan over cake 5 minutes so brown sugar topping can drizzle over cake; remove pan. Cool 30 minutes. Serve warm or cool. Store covered in refrigerator.</li>
 			</ol>
 		</section>
-		</div>
-	</div>
+		
 	</main>
 	<footer>
 		<p>&copy; 2025 Evelyn Z Smith</p>
@@ -101,6 +99,7 @@
 
 </body>
 </html>
+
 
 
 
