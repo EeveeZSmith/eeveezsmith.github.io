@@ -5,7 +5,7 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	font-family: "Titillium Web", sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* eliminate default padding from content elements */
@@ -17,7 +17,7 @@ h1, h2, p {
 /* five sections of 100vh == 500vh with a tall background photo of the building */
 main {
     height: 500vh;
-    background-image: url("../images/empire-state-building.jpg");
+    background-image: url("..long-story/General_Sherman_1469870071.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -67,7 +67,7 @@ section > .instructions {
 #section1 h1 {
     font-size: 7rem;
     line-height: 6rem;
-    font-family: Limelight, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: -0.4rem; /* due to the size and design of the font, bump it left a tiny bit for visual alignment */
     padding-left: 1rem; /* to align with paragraphs */
 }
@@ -75,3 +75,4 @@ section > .instructions {
 /* change the color in the last section due to the background image */
 #section5 p {
     background-color: #cfddebbb;
+
