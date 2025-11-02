@@ -17,7 +17,7 @@ h1, h2, p {
 /* five sections of 100vh == 500vh with a tall background photo of the building */
 main {
     height: 500vh;
-    background-image: url("General_Sherman_1469870071.jpg");
+    background-image: url("General_Sherman_Edit.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -75,6 +75,7 @@ section > .instructions {
 /* change the color in the last section due to the background image */
 #section5 p {
     background-color: #cfddebbb;
+
 
 
 
