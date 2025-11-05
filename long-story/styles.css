@@ -57,11 +57,6 @@ section > .instructions {
     padding-left: 1rem; /* to align with paragraphs */
 }
 
-/* transform the header and paragraph text in the title block */
-#section1 p,
-#section1 h1 {
-    text-transform: uppercase;
-}
 
 /* set font, size, and spacing on the h1 tag */
 #section1 h1 {
@@ -73,8 +68,9 @@ section > .instructions {
 }
 
 /* change the color in the last section due to the background image */
-#section5 p {
+#section1, #section2, #section3, #section4, #section5 p {
     background-color: #cfddebbb;
+
 
 
 
