@@ -53,7 +53,7 @@ section > .instructions {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
-    color: #000;
+    color: #F0F8FF;
     padding-right: 1rem; /* to align with paragraphs */
 }
 
@@ -70,6 +70,7 @@ section > .instructions {
 /* change the color in the last section due to the background image */
 #section1 p, #section1 h1, #section2 p, #section3 p, #section4 p, #section5 p {
     background-color: #cfddebbb;
+
 
 
 
