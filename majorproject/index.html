@@ -15,12 +15,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 750px;
+  max-width: 750px;
 	height: auto;			
 }
-		h1, h2, h3, p, {
-  text-align: center;
-}
+
 		.button {
   background-color: #04AA6D;
   border: none;			
@@ -28,7 +26,7 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
@@ -36,7 +34,18 @@
 	transition-duration: 0.4s;
 }
 .button:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
-
+	h1, h2, h3, p, {
+  text-align: center;
+}
+.container {
+  display: flex;
+	flex-direction: row;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
 		/* in-file CSS here */
 	</style>
 
@@ -53,9 +62,11 @@
 
 	<h2>Whidbey Island's Premier Professional Writing Services</h2>
 	<h3>Across the island or across the world, we can help with all of your business communications needs:</h3>
-	<a href="/writing.html" class="button">Writing</a>
-	<a href="/editing.html" class="button">Editing</a>
-	<a href="/web.html" class="button">Web Design</a>
+	<div class="container">
+	<div><a href="/writing.html" class="button">Writing</a></div>
+	<div><a href="/editing.html" class="button">Editing</a></div>
+	<div><a href="/web.html" class="button">Web Design</a></div>
+	</div>
 	
 	<!-- HTML elements here -->
 
@@ -67,6 +78,7 @@
   Photo by Sheila Sund</p>
 </footer>
 </html>
+
 
 
 
