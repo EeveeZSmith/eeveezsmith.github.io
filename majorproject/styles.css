@@ -1,3 +1,6 @@
+body {
+  font-family: "Grenze", serif;
+}
 /* CSS for responsive menu demo */
 
 /* define variables */
@@ -256,4 +259,5 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
