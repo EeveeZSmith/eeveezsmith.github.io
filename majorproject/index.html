@@ -18,9 +18,27 @@
   width: 750px;
 	height: auto;			
 }
-		h1, h2, h3, p, ul {
+		h1, h2, h3, p, {
   text-align: center;
 }
+		.button {
+  background-color: #04AA6D;
+  border: none;			
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 12px	
+	transition-duration: 0.4s;
+}
+.button:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
+.button1 {background-color: #04AA6D;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;}
 		/* in-file CSS here */
 	</style>
 
@@ -36,14 +54,11 @@
 	<img src="DPBridge.jpg" alt="Deception Pass Bridge">
 
 	<h2>Whidbey Island's Premier Professional Writing Services</h2>
-	<h3>Across the island or across the world, we can help with all of your business communications needs.</h3>
-	<p><b>Services We Offer:</b>
-	<ul>
-		<li><a href="/writing.html">Writing</a></li>
-		<li><a href="/editing.html">Editing</a></li>
-		<li><a href="/web.html">Website Feedback and Design</a></li>
-	</ul>
-</p>
+	<h3>Across the island or across the world, we can help with all of your business communications needs:</h3>
+	<a href="/writing.html" class="button">Writing</a>
+	<a href="/editing.html" class="button">Editing</a>
+	<a href="/web.html" class="button">Web Design</a>
+	
 	<!-- HTML elements here -->
 
 </body>
@@ -54,6 +69,7 @@
   Photo by Sheila Sund</p>
 </footer>
 </html>
+
 
 
 
