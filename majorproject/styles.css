@@ -1,5 +1,6 @@
 body {
   font-family: "Grenze", serif;
+  background-color: #E4F1F6;
 }
 html {
   font-size: 18px; /* Sets the root font size */
@@ -278,6 +279,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
