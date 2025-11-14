@@ -2,7 +2,7 @@ body {
   font-family: "Grenze", serif;
 }
 html {
-  font-size: 20px; /* Sets the root font size */
+  font-size: 18px; /* Sets the root font size */
 }
 
 h1 {
@@ -278,6 +278,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
