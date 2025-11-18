@@ -30,31 +30,7 @@ footer {
   color: #E4F1F6;
 }
 }
-.button {
-  background-color: #347B98;
-  border: none;			
-  color: #E4F1F6;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 10px;	
-  cursor: pointer;
-	transition-duration: 0.4s;
-}
-.button:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
 
-.container {
-  display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
-}
 /* CSS for responsive menu demo */
 
 /* define variables */
@@ -313,6 +289,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
