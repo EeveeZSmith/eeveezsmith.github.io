@@ -21,6 +21,15 @@ h3 {
 p {
   font-size: 1rem; /* 1 * 16 = 16px */
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #347B98;
+  color: #E4F1F6;
+  a {
+  color: #E4F1F6;
+}
+}
 /* CSS for responsive menu demo */
 
 /* define variables */
@@ -279,6 +288,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
