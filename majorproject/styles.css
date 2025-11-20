@@ -1,14 +1,14 @@
 body {
   font-family: "Grenze", serif;
   background-color: #E4F1F6;
-   margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
+   margin-bottom: 20px;
+  margin-right: 16%;
+  margin-left: 16%;
 }
 div {
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 16%;
+  margin-left: 16%;
 }
 html {
   font-size: 18px; /* Sets the root font size */
@@ -297,6 +297,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
