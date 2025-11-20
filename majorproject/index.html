@@ -41,12 +41,17 @@
 	flex-direction: row;
 	justify-content: center;
 }
+.container div {
+	width: 33%;
+}
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
   }
+	.container div {
+	width: 100%;
 }
-
+}
 
 		/* in-file CSS here */
 	</style>
@@ -88,9 +93,37 @@
 	<h2>Whidbey Island's Premier Professional Writing Services</h2>
 	<h3>Across the island or across the world, we can help with all of your business communications needs:</h3>
 	<div class="container">
-	<div><a href="/majorproject/writing.html" class="button">Writing</a></div>
-	<div><a href="/majorproject/editing.html" class="button">Editing</a></div>
-	<div><a href="/majorproject/web.html" class="button">Web Design</a></div>
+		<div>
+			<h2>Writing</h2>
+			<ul>
+				<li>Technical or specialized documents, such as instruction manuals or guidebooks</li>
+				<li>Promotional or informational materials: booklets, pamphlets, posters, etc.</li>
+				<li>Email and print marketing campaigns</li>
+				<li>Restaurant menus</li>
+				<li>Presentations</li>
+				<li>And more!</li>
+			</ul>
+			<a href="/majorproject/writing.html" class="button">Writing Details</a>
+		</div>
+		<div>
+			<h2>Editing</h2>
+			<ul>
+				<li>Copyediting for basic typos, grammar, spelling, etc.</li>
+				<li>Reviewing content for clarity, accessibility, appropriateness, etc.</li>
+				<li>Editing layout, formatting, and overall design</li>
+			</ul>
+				<a href="/majorproject/editing.html" class="button">Editing Details</a>
+		</div>
+		<div>
+			<h2>Web Design</h2>
+			<ul>
+				<li>Feedback on website usability and aesthetics</li>
+				<li>Accessibility review</li>
+				<li>Website makeovers</li>
+				<li>Website design</li>
+			</ul>
+			<a href="/majorproject/web.html" class="button">Web Details</a>
+		</div>
 	</div>
 	
 	<!-- HTML elements here -->
@@ -103,6 +136,7 @@
   Photo by <a href="https://commons.wikimedia.org/wiki/File:Deception_Pass_Bridge_(8932832423).jpg">Sheila Sund from Salem, United States</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons</p>
 </footer>
 </html>
+
 
 
 
