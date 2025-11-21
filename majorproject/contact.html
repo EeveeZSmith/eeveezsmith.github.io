@@ -22,16 +22,37 @@
 
 </head>
 <body>
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="ex. John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="ex. Smith"><br><br>
- <textarea name="message" style="width:100%; max-width:600px; height:200px;">Type message here.</textarea>
+	<div>
+<form action="/majorproject/thanks.html">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value="ex. John Smith"><br><br>
+	<label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="ex. johnsmith@website.com"><br><br>
+	 <label for="title">Preferred form of address:</label>
+  <select id="title" name="title">
+    <option value="ms">Ms.</option>
+    <option value="mr">Mr.</option>
+    <option value="mrs">Mrs.</option>
+    <option value="dr">Dr.</option>
+     <option value="prof">Prof.</option>
+     <option value="name">First name</option>
+  </select>
+	<p>Which service(s) are you interested in?</p>
+	 <input type="checkbox" id="service1" name="service1" value="Writing">
+  <label for="service1"> Writing</label>
+  <input type="checkbox" id="service2" name="service2" value="Editing">
+  <label for="service2"> Editing</label>
+  <input type="checkbox" id="service3" name="service3" value="Web">
+  <label for="service3"> Web Design</label>
+   <input type="checkbox" id="service4" name="service4" value="Other">
+  <label for="service4"> Other or General Inquiry</label><br><br>
+ <textarea name="message" style="width:100%; height:200px;">Type message here.</textarea>
   <input type="submit" value="Submit">
 </form> 
+	</div>
 	<!-- HTML elements here -->
 
 </body>
 </html>
+
 
