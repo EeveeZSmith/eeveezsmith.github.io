@@ -10,6 +10,9 @@ div {
   margin-right: 15px;
   margin-left: 15px;
 }
+footer {
+  margin-top: 50px;
+}
 html {
   font-size: 18px; /* Sets the root font size */
 }
@@ -297,6 +300,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
