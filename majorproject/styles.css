@@ -32,6 +32,11 @@ h3 {
 
 p {
   font-size: 1rem; /* 1 * 16 = 16px */
+  line-height: 1.6;
+}
+ul {
+  font-size: 1rem; /* 1 * 16 = 16px */
+  line-height: 1.6;
 }
 footer {
   text-align: center;
@@ -302,5 +307,6 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
