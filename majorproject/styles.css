@@ -2,13 +2,13 @@ body {
   font-family: "Fira Sans", sans-serif;
   background-color: #E4F1F6;
    margin-bottom: 25px;
-  margin-right: 16%;
-  margin-left: 16%;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 div {
   margin-bottom: 25px;
-  margin-right: 16%;
-  margin-left: 16%;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 html {
@@ -308,6 +308,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
