@@ -17,14 +17,17 @@ html {
 
 h1 {
   font-size: 2.5rem; /* 2.5 * 16 = 40px */
+  font-weight: 600;
 }
 
 h2 {
   font-size: 1.875rem; /* 1.875 * 16 = 30px */
+  font-weight: 500;
 }
 
 h3 {
   font-size: 1.5rem; /* 1.875 * 16 = 30px */
+  font-weight: 400;
 }
 
 p {
@@ -299,4 +302,5 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
