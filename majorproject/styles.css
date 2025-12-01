@@ -4,8 +4,8 @@ body {
 }
 
 p, h1, h2, h3, div {
-  margin-right: 25px;
-  margin-left: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 html {
@@ -305,6 +305,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
