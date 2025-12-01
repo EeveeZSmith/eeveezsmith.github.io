@@ -34,8 +34,6 @@ footer {
   text-align: center;
   padding: 3px;
   margin-top: 50px;
-  margin-left: 0;
-  margin-right: 0;
   background-color: #347B98;
   color: #E4F1F6;
   a {
@@ -302,6 +300,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
