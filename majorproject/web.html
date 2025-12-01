@@ -6,11 +6,41 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Page Title</title>
+	<title>Web Design</title>
 
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
+	h2 {
+  text-align: center;
+}
+	body {
+  margin-left: 35px;
+  margin-right: 35px;
+	}
+			img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+	height: auto;			
+}
+		.container {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.container div {
+	width: 50%;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+	.container div {
+	width: 100%;
+}
+}
 		/* in-file CSS here */
 	</style>
 
@@ -19,11 +49,60 @@
 	<script>
 		// in-page JavaScript here
 	</script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav>
+		<a id="navBurger">&#9776;</a>
 
+		<ul>
+			<li><a href="/majorproject/index.html">Home</a></li>
+
+			<li><a href="#">Services</a>
+				<ul>
+					<li><a href="/majorproject/writing.html">Writing</a></li>
+					<li><a href="/majorproject/editing.html">Editing</a></li>
+					<li><a href="/majorproject/web.html">Web Design</a></li>
+				</ul>
+			</li>
+
+			<li><a href="/majorproject/about.html">About Us</a></li>
+			<li><a href="/majorproject/contact.html">Contact Us</a></li>
+			<li><a href="/majorproject/portfolio.html">Portfolio</a></li>
+		</ul>
+
+	</nav>
 	<!-- HTML elements here -->
-
+<h2>Web Design</h2>
+	<div class="container">
+		<div>
+		<img src="WebDesignWireframe.jpg" alt="Web design wireframe">
+		</div>
+		<div>
+			<table>
+				<tr>
+					<th>Service</th>
+					<th>Price</th>
+				</tr>
+				<tr>
+					<td>Website Assessment</td>
+					<td>$5</td>
+				</tr>
+				<tr>
+					<td>Design or Makeover</td>
+					<td>$50/hour</td>
+				</tr>
+			</table>
+		</div>
+	</div>
 </body>
+	<footer>
+  <p>&copy; Pro Writing Whidbey<br>
+  916 SE Bayshore Dr<br>
+  Oak Harbor, WA  98277<br>
+Photo by <a href="https://unsplash.com/@uxindo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">UX Indonesia</a> on <a href="https://unsplash.com/photos/person-writing-on-white-paper-qC2n6RQU4Vw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>   
+  </p></footer>
 </html>
+
