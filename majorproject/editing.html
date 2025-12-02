@@ -25,6 +25,44 @@
   max-width: 100%;
 	height: auto;			
 }
+		.container {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.container div {
+	width: 50%;
+}
+		table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #347B98;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+		tr:nth-child(odd){background-color: white;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(103, 175, 203, 0.5);
+  color: black;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+	.container div {
+	width: 100%;
+}
+}
 		/* in-file CSS here */
 	</style>
 
@@ -69,4 +107,5 @@
 	Photo by <a href="https://unsplash.com/@oddityandgrace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">hannah grace</a> on <a href="https://unsplash.com/photos/a-white-box-with-writing-on-it-next-to-a-plant-j9JoYpaJH3A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </p></footer>  
 </html>
+
 
