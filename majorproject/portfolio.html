@@ -11,6 +11,30 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
+		h2 {
+  text-align: center;
+}
+	body {
+  margin-left: 35px;
+  margin-right: 35px;
+	}
+		.container {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.container div {
+	width: 50%;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+	.container div {
+	width: 100%;
+}
+}
+
 		/* in-file CSS here */
 	</style>
 
@@ -19,6 +43,9 @@
 	<script>
 		// in-page JavaScript here
 	</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -48,11 +75,17 @@
 		</ul>
 
 	</nav>
-<a href="Sample Research Proposal.pdf" target="_blank">Sample Research Proposal</a>
+<h2>Portfolio</h2>
 	<!-- HTML elements here -->
 
 </body>
+		<footer>
+  <p>&copy; Pro Writing Whidbey<br>
+  916 SE Bayshore Dr<br>
+  Oak Harbor, WA  98277<br>
+</footer>
 </html>
+
 
 
 
