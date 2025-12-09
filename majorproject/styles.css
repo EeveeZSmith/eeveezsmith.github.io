@@ -3,6 +3,11 @@ body {
   background-color: #E4F1F6;
 }
 
+section {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
 html {
   font-size: 18px; /* Sets the root font size */
 }
@@ -302,6 +307,7 @@ nav>ul>li>ul>li:hover a {
   font-weight: 900;
   font-style: italic;
 }
+
 
 
 
