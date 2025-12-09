@@ -11,29 +11,34 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-			h2 {
+h2 {
   text-align: center;
 }
-	body {
+		
+body {
   margin-left: 35px;
   margin-right: 35px;
-	}
-			img {
+}
+		
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 	height: auto;			
 }
-		.container {
+		
+.container {
   display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
+		
 .container div {
 	width: 50%;
 }
-		table {
+		
+table {
   border-collapse: collapse;
   width: 100%;
 }
@@ -44,7 +49,7 @@ td, th {
 }
 
 tr:nth-child(even){background-color: #f2f2f2;}
-		tr:nth-child(odd){background-color: white;}
+tr:nth-child(odd){background-color: white;}
 
 tr:hover {background-color: #ddd;}
 
@@ -55,13 +60,14 @@ th {
   background-color: rgb(103, 175, 203, 0.5);
   color: black;
 }
+		
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
   }
 	.container div {
 	width: 100%;
-}
+	}
 }
 		/* in-file CSS here */
 	</style>
@@ -78,10 +84,8 @@ th {
 <body>
 	<nav>
 		<a id="navBurger">&#9776;</a>
-
 		<ul>
 			<li><a href="/majorproject/index.html">Home</a></li>
-
 			<li><a href="#">Services</a>
 				<ul>
 					<li><a href="/majorproject/writing.html">Writing</a></li>
@@ -97,13 +101,11 @@ th {
 				</ul>
 			</li>
 			<li><a href="/majorproject/contact.html">Contact Us</a></li>
-			<li><a href="/majorproject/resources.html">Resources</a></li>
-			
+			<li><a href="/majorproject/resources.html">Resources</a></li>		
 		</ul>
-
 	</nav>
 	<!-- HTML elements here -->
-	<h2>Writing Services</h2>
+<h2>Writing Services</h2>
 <div class="container">
 	<div>
 		<img src="WritingPen.jpg" alt="Pen">
@@ -115,19 +117,18 @@ th {
 				<th>Estimated Price</th>
 			</tr>
 			<tr>
-				<td>Text-based</td>
+				<td>250+ Words per Page</td>
 				<td>$0.25/word</td>
 			</tr>
 			<tr>
-				<td>Non text-based</td>
+				<td>Less than 250 Words per Page</td>
 				<td>$40/hour</td>
 			</tr>
 		</table>
-		<p><i>Please note: Pricing type will depend on the exact nature of specific projects.</i></p>
-			<h3>Service Details:</h3>
-		<p>As the field of professional/technical writing covers such a broad variety of work (really just about anything that conveys information via the written word), it is difficult to list specific prices for any given project, but the following are some more common examples:</p>
-		<p><b>Text-based -</b> Usually long-form documents consisting only or mostly of text, such as articles, essays, manuals, reports, proposals, etc.</p>
-		<p><b>Non text-based -</b> Items where text is more limited, such as PowerPoint presentations, brochures, marketing materials, infographics, posters, menus, etc.</p>
+		<p><i>Please note: Pricing type will depend on the average number of words per page for the project, as specified below.</i></p>
+		<h3>Service Details:</h3>
+		<p><b>250+ Words per Page -</b> Usually long-form documents consisting only or mostly of text, such as articles, essays, manuals, reports, proposals, etc.</p>
+		<p><b>Less than 250 per Page -</b> Items where text is more limited, such as PowerPoint presentations, brochures, marketing materials, infographics, posters, menus, etc.</p>
 		<h3>Writing Services We DO NOT Provide:</h3>
 		<ul>
 			<li>Academic papers or anything else that may be regarded as cheating or a breach of academic integrity (Note: <a href="/majorproject/editing.html">Editing</a> for academic papers may be provided in appropriate cases)</li>
@@ -138,14 +139,15 @@ th {
 		</ul>
 	</div>
 </div>
-</body>
-		<footer>
+<footer>
   <p>&copy; Pro Writing Whidbey<br>
   916 SE Bayshore Dr<br>
   Oak Harbor, WA  98277<br>
-	  Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Debby Hudson</a> on <a href="https://unsplash.com/photos/purple-flowers-on-paper-DR31squbFoA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+	Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Debby Hudson</a> on <a href="https://unsplash.com/photos/purple-flowers-on-paper-DR31squbFoA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 </footer>
+</body>
 </html>
+
 
 
 
