@@ -27,8 +27,24 @@ p {
   text-align: center;
   background: DarkSlateGray;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
 }
+
+.container {
+  display: flex;
+	flex-direction: row;
+}
+
+#Info {
+	background-color: LightGray;
+	width: 33%;
+}
+
+#CV {
+	background-color: WhiteSmoke;
+	width: 66%;
+}
+	
 		/* in-file CSS here */
 	</style>
 
@@ -44,8 +60,17 @@ p {
   <h1>Evelyn Z. Smith</h1>
   <p>Professional Writer, Editor, and Designer</p>
 </div>
+<div class="container">
+	<div id="Info">
+		<h2>Contact</h2>
+	</div>
+	<div id="CV">
+		<h2>About Me</h2>
+	</div>
+</div>
 	<!-- HTML elements here -->
 
 </body>
 </html>
+
 
